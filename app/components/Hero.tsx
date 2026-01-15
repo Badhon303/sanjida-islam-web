@@ -18,7 +18,7 @@ export default function Hero() {
           </span> */}
           <h1>
             <Image
-              src="/sanjida-islam/jonogonerPashe.png"
+              src="/sanjida-islam/jonogonerPashe.webp"
               alt="জনগণের পাশে"
               width={400}
               height={200}
