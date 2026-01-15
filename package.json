@@ -9,7 +9,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "preinstall": "npx check-node-version --node '>=22.12.0' || exit 0"
   },
   "dependencies": {
     "@prisma/client": "^7.1.0",
