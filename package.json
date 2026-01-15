@@ -9,12 +9,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "preinstall": "npx check-node-version --node '>=22.12.0' || exit 0"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@prisma/client": "^7.1.0",
-    "bcryptjs": "^3.0.3",
     "framer-motion": "12.23.24",
     "next": "16.0.7",
     "pdfjs-dist": "^4.4.449",
@@ -25,7 +22,6 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",
-    "@types/bcryptjs": "^2.4.6",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
